@@ -6,7 +6,7 @@ on:
 env:
   TURBO_TEAM: k6
   TURBO_TOKEN: orXUG7C0upy1PfeztANQZEBp
-  
+
 jobs:
   build:
     name: AutoRelease
@@ -24,7 +24,7 @@ jobs:
           node-version: 18
       # install dependencies
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       # run turbo publish
       - name: Install dependencies
