@@ -14,8 +14,8 @@ Three parts of the `LiveViewSocket` are used to manipulate the context:
 
 | Name                                          | Description                                                                                                                                                                                    |
 | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `context` (property, read-only)               | The current context (i.e.,  state) of the LiveView                                                                                                                                               |
-| `assign(context:Partial<TContext>):void;`     | Update the context (i.e.,  state) of the LiveView                                                                                                                                                |
+| `context` (property, read-only)               | The current context (i.e., state) of the LiveView                                                                                                                                              |
+| `assign(context:Partial<TContext>):void;`     | Update the context (i.e., state) of the LiveView                                                                                                                                               |
 | `tempAssign(context:Partial<TContext>):void;` | Marks any set properties as temporary and will be reset to the given value after the next render cycle. Typically used to ensure large but infrequently updated values are not kept in memory. |
 
 ## Details
@@ -56,8 +56,7 @@ const myLiveView = createLiveView<{foo: string}>(
 )
 ```
 
-You can type the Context inline as above or you can define the context type first and then use it as a type
-annotation:
+You can type the Context inline as above or you can define the context type first and then use it as a type annotation:
 
 ```ts
 // Define the MyContext interface

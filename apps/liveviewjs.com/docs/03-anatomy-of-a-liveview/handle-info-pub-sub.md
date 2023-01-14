@@ -86,4 +86,5 @@ export const rtCounterLiveView = createLiveView<
 
 ## It's that easy!
 
-In ~10 lines of code, we've built a real-time, multi-player counter! Sure, that isn't particularly useful, but it shows you how easy it is to create real-time, multi-player applications with very little code and effort.
+In ~10 lines of code, we've built a real-time, multi-player counter! Sure, that isn't particularly useful, but it shows
+you how easy it is to create real-time, multi-player applications with very little code and effort.

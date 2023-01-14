@@ -37,8 +37,8 @@ cd liveviewjs
 
 ## Node or Deno?
 
-**LiveViewJS** runs on both Node and Deno, but you'll probably want to start down one path or the other depending on what
-runtime you are more familiar with or are already using.
+**LiveViewJS** runs on both Node and Deno, but you'll probably want to start down one path or the other depending on
+what runtime you are more familiar with or are already using.
 
 :::note The **LiveViewJS** library APIs are the same so you can build your LiveViews on one platform and run them on the
 other unless you are using Deno or Node-specific APIs in your LiveView implementation. :::

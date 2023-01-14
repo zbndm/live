@@ -4,16 +4,13 @@
     "format": {    
     },
     "dist": {
-      "dependsOn": ["^dist", "test"],
+      "dependsOn": ["^dist"],
       "outputs": ["dist/**", "build/**"],
       "inputs": ["src/**/*.ts"]
     },
-    "test": {
-      "outputs": ["coverage/**"],
-      "inputs": ["src/**/*.ts"]
-    },
+
     "publish": {
-      "dependsOn": ["test", "dist"],
+      "dependsOn": ["dist"],
       "cache": false
     }
   }

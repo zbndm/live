@@ -334,8 +334,8 @@ book, we pass an empty object `{}` first, along with the `event` data. Important
 assign the result to the `saveChangeset` variable.
 
 If the `saveChangeset` is valid, we save the book to the in memory data store. We then reset the `changeset` to be an
-empty changeset (i.e.,  `bookCSF({}, {})`). If the `saveChangeset` is not valid, we keep the `changeset` as the
-`saveChangeset` so that the error messages will be rendered in the form using the form helpers (i.e.,  `error_tag` and
+empty changeset (i.e., `bookCSF({}, {})`). If the `saveChangeset` is not valid, we keep the `changeset` as the
+`saveChangeset` so that the error messages will be rendered in the form using the form helpers (i.e., `error_tag` and
 `text_input`).
 
 Finally, we update the `books` and `changeset` in the `context`.

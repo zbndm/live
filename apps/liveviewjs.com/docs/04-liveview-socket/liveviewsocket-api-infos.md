@@ -58,8 +58,8 @@ const myLiveView = createLiveView<MyContext, MyEvents, MyInfo>(
 )
 ```
 
-`socket.sendInfo` can take a type as a string for cases where there isn't additional information passed along with
-the message.
+`socket.sendInfo` can take a type as a string for cases where there isn't additional information passed along with the
+message.
 
 ```ts
 // or send just the "type" as a string

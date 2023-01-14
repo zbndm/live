@@ -27,8 +27,8 @@ browser.
 
 ## Setup a new Route
 
-Let's add a route to this LiveView to see it in our browser. Edit `packages/deno/src/example/index.ts` and make
-the following highlighted changes:
+Let's add a route to this LiveView to see it in our browser. Edit `packages/deno/src/example/index.ts` and make the
+following highlighted changes:
 
 ```ts title="packages/deno/src/example/index.ts" {3,7}
 ...

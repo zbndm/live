@@ -4,8 +4,8 @@ sidebar_position: 4
 
 # LiveView API - `handleEvent`
 
-`handleEvent` is called automatically by the **LiveViewJS** framework when a user action causes the browser to send
-an event to the server (e.g., clicks, keyboard input, form updates, focus/blur, etc.). (More details on
+`handleEvent` is called automatically by the **LiveViewJS** framework when a user action causes the browser to send an
+event to the server (e.g., clicks, keyboard input, form updates, focus/blur, etc.). (More details on
 [User Events](/docs/user-events-slash-bindings/overview)). The `handleEvent` function is responsible for updating the
 `context` (i.e., state) of the LiveView based on the event.
 

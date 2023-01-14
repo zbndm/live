@@ -87,9 +87,9 @@ Typescript annotations `TContext`, `TEvents`, and `TInfo`.
 The `html` function is a tagged template literal that allows you to write HTML with dynamic content in a very normal way
 using javascript
 [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). The `html` tag
-handles escaping content to prevent injection attacks but just as importantly, the `html` tag also
-(transparently) creates the data structure necessary to efficiently calculate diffs between the current HTML and the new
-HTML. This is what allows **LiveViewJS** to efficiently update the DOM with only the changes.
+handles escaping content to prevent injection attacks but just as importantly, the `html` tag also (transparently)
+creates the data structure necessary to efficiently calculate diffs between the current HTML and the new HTML. This is
+what allows **LiveViewJS** to efficiently update the DOM with only the changes.
 
 Let's take a closer look at `mount`, `render`, `handleEvent`, `handleInfo`, and `handleParams` methods in the next
 sections.
